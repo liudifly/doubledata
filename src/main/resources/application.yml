@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: CreditCardAudit
+  datasource:
+    line:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://211.137.44.110:36603/eas?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true
+      username: EAS
+      password: JqwJGAkbq1
+    other:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://211.137.44.110:36603/newvpn?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true
+      username: newvpn
+      password: IHcG2KryUK
